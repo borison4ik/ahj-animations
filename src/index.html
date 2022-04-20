@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Animation</title>
+</head>
+<body>
+  <div id="app">
+    <div class="container">
+      <div class="block block_1">
+        <h2 class="title">Collapse</h2>
+        <div class="collapse__widget">
+          <div class="collapse__header">
+            <button class="collapse__btn" type="button" data-collapse-control>Collapse</button>
+          </div>
+          <div class="collapse__body">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt quis autem, voluptate debitis unde totam? Quo quia tempore eum nulla deserunt, accusantium odio. Minus rem est fugit voluptate, nemo unde!
+            Eum sapiente, sequi id eos reprehenderit assumenda odio? Ea officia fugiat perferendis, exercitationem praesentium, facere dolore eius rerum obcaecati eum, in tenetur vel quam veritatis qui. In id numquam quas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat">
+      <button class="chat__btn" type="button">+</button>
+      <div class="chat__body">
+        <div class="chat__close">X</div>
+        <div class="chat__List">
+
+        </div>
+        <div class="chat__controls">
+          <input type="text"><button type="button" class="chat__send">Send</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+
+<!-- Данные для анимации:
+
+Изображение - heart.png
+Высота, на которой исчезают лайки - 200px
+Макс. отклонение влево/вправо - 50px
+Скорость анимации - 500ms
+Функция анимации - ease-out (можете использовать другую)
+Возможные траектории (траектория выбирается рандомно):
+0% - центр, 25% - влево, 50% - центр, 75% - вправо, 100% - центр
+0% - центр, 25% - центр, 50% - вправо, 75% - влево, 100% - центр
+0% - центр, 25% - центр, 50% - влево, 75% - вправо, 100% - центр
+0% - центр, 25% - вправо, 50% - центр, 75% - влево, 100% - центр
+Важно: обратите внимание, что элементы после "исчезания" должны удаляться из DOM. Используйте для этого соответствующие события, а не таймауты. -->

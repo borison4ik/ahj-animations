@@ -1,0 +1,16 @@
+.like {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+.like__btn {
+  border: none;
+  min-width: 100px;
+  box-shadow: none;
+  border-radius: 8px;
+  background-color: rgb(204, 0, 0);
+  color: white;
+  padding: 12px 24px;
+  font-size: 20px;
+  cursor: pointer;
+}

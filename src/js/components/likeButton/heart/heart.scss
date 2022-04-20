@@ -1,0 +1,102 @@
+.heart {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  transform: translateX(-50%);
+
+  &.first {
+    animation: first-animation 2s ease-in;
+  }
+
+  &.second {
+    animation: second-animation 2s ease-in;
+  }
+
+  &.third {
+    animation: third-animation 2s ease-in;
+  }
+
+  &.fourth {
+    animation: fourth-animation 2s ease-in;
+  }
+}
+
+@keyframes first-animation {
+  0% {
+    transform: translate(0px, -40px);
+  }
+  25% {
+    transform: translate(-50px, -80px);
+  }
+  50% {
+    transform: translate(0px, -120px);
+  }
+  75% {
+    transform: translate(50px, -160px);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate(0px, -200px);
+    opacity: 0;
+  }
+}
+
+@keyframes second-animation {
+  0% {
+    transform: translate(0px, -40px);
+  }
+  25% {
+    transform: translate(0px, -80px);
+  }
+  50% {
+    transform: translate(50px, -120px);
+  }
+  75% {
+    transform: translate(-50px, -160px);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate(0px, -200px);
+    opacity: 0;
+  }
+}
+
+@keyframes third-animation {
+  0% {
+    transform: translate(0px, -40px);
+  }
+  25% {
+    transform: translate(0px, -80px);
+  }
+  50% {
+    transform: translate(-50px, -120px);
+  }
+  75% {
+    transform: translate(50px, -160px);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate(0px, -200px);
+    opacity: 0;
+  }
+}
+
+@keyframes fourth-animation {
+  0% {
+    transform: translate(0px, -40px);
+  }
+  25% {
+    transform: translate(50px, -80px);
+  }
+  50% {
+    transform: translate(0px, -120px);
+  }
+  75% {
+    transform: translate(-50px, -160px);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate(0px, -200px);
+    opacity: 0;
+  }
+}
